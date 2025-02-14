@@ -37,6 +37,7 @@ function Packages() {
 						<h1 className="mb-5">Exclusive Vacation Packages</h1>
 					</div>
 					<div className="row g-4 justify-content-center">
+						{/* Skardu Package */}
 						<div
 							className="col-lg-4 col-md-6 wow fadeInUp"
 							data-wow-delay="0.1s">
@@ -45,34 +46,33 @@ function Packages() {
 									<img
 										className="img-fluid"
 										src="assets/img/package-1.jpg"
-										alt=""
+										alt="Skardu"
 									/>
 								</div>
 								<div className="d-flex border-bottom">
 									<small className="flex-fill text-center border-end py-2">
 										<i className="fa fa-map-marker-alt text-primary me-2" />
-										Thailand
+										Skardu
 									</small>
 									<small className="flex-fill text-center border-end py-2">
-										<i className="fa fa-calendar-alt text-primary me-2" />3 Days
+										<i className="fa fa-calendar-alt text-primary me-2" />4 Days
 									</small>
 									<small className="flex-fill text-center py-2">
 										<i className="fa fa-user text-primary me-2" />2 Persons
 									</small>
 								</div>
 								<div className="text-center p-4">
-									<h3 className="mb-0">PKR 141,720</h3>
+									<h3 className="mb-0">PKR 120,000</h3>
 									<div className="mb-3">
 										<small className="fa fa-star text-primary" />
 										<small className="fa fa-star text-primary" />
 										<small className="fa fa-star text-primary" />
 										<small className="fa fa-star text-primary" />
-										<small className="fa fa-star text-primary" />
+										<small className="fa fa-star-half-alt text-primary" />
 									</div>
 									<p>
-										Explore the vibrant culture and pristine beaches of
-										Thailand. This package is perfect for couples seeking a
-										relaxing yet adventurous escape.
+										Experience the breathtaking beauty of Skardu, surrounded by
+										majestic mountains and serene lakes.
 									</p>
 									<div className="d-flex justify-content-center mb-2">
 										<a
@@ -91,6 +91,8 @@ function Packages() {
 								</div>
 							</div>
 						</div>
+
+						{/* Hunza Package */}
 						<div
 							className="col-lg-4 col-md-6 wow fadeInUp"
 							data-wow-delay="0.3s">
@@ -99,23 +101,23 @@ function Packages() {
 									<img
 										className="img-fluid"
 										src="assets/img/package-2.jpg"
-										alt=""
+										alt="Hunza"
 									/>
 								</div>
 								<div className="d-flex border-bottom">
 									<small className="flex-fill text-center border-end py-2">
 										<i className="fa fa-map-marker-alt text-primary me-2" />
-										Indonesia
+										Hunza
 									</small>
 									<small className="flex-fill text-center border-end py-2">
-										<i className="fa fa-calendar-alt text-primary me-2" />3 Days
+										<i className="fa fa-calendar-alt text-primary me-2" />5 Days
 									</small>
 									<small className="flex-fill text-center py-2">
 										<i className="fa fa-user text-primary me-2" />2 Persons
 									</small>
 								</div>
 								<div className="text-center p-4">
-									<h3 className="mb-0">PKR 138,920</h3>
+									<h3 className="mb-0">PKR 135,000</h3>
 									<div className="mb-3">
 										<small className="fa fa-star text-primary" />
 										<small className="fa fa-star text-primary" />
@@ -124,8 +126,8 @@ function Packages() {
 										<small className="fa fa-star text-primary" />
 									</div>
 									<p>
-										Uncover the beauty of Indonesia’s islands. From breathtaking
-										landscapes to cultural wonders, this package offers it all.
+										Explore the wonders of Hunza Valley with its stunning
+										landscapes, historic forts, and vibrant culture.
 									</p>
 									<div className="d-flex justify-content-center mb-2">
 										<a
@@ -144,6 +146,8 @@ function Packages() {
 								</div>
 							</div>
 						</div>
+
+						{/* Malaysia Package (Remains the Same) */}
 						<div
 							className="col-lg-4 col-md-6 wow fadeInUp"
 							data-wow-delay="0.5s">
@@ -152,7 +156,7 @@ function Packages() {
 									<img
 										className="img-fluid"
 										src="assets/img/package-3.jpg"
-										alt=""
+										alt="Malaysia"
 									/>
 								</div>
 								<div className="d-flex border-bottom">

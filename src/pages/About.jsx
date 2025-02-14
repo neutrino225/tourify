@@ -52,13 +52,13 @@ function About() {
 							<h1 className="mb-4">
 								Welcome to <span className="text-primary">Tourify</span>
 							</h1>
-							<p className="mb-4">The best travel agency in the world!</p>
+							<p className="mb-4">The best travel agency in Pakistan!</p>
 							<p className="mb-4">
-								Want to travel the world hassle-free? Tourify is here to help
-								you with that. We offer the best travel packages for you to
-								enjoy your vacation to the fullest. Our services include
-								first-class flights, handpicked hotels, 5-star accommodations,
-								premium city tours, and 24/7 support.
+								Want to explore Pakistan without any hassle? Tourify is here to
+								provide you with premium travel experiences. We offer the best
+								travel packages to help you enjoy your vacations to the fullest.
+								Our services include first-class flights, handpicked hotels,
+								luxury accommodations, guided city tours, and 24/7 support.
 							</p>
 							<div className="row gy-2 gx-4 mb-4">
 								{[
@@ -66,8 +66,8 @@ function About() {
 									"Handpicked Hotels",
 									"5 Star Accommodations",
 									"Latest Model Vehicles",
-									"150 Premium City Tours",
-									"24/7 Service",
+									"Exclusive Pakistan Tours",
+									"24/7 Customer Support",
 								].map((feature, index) => (
 									<div key={index} className="col-sm-6">
 										<p className="mb-0">
@@ -93,10 +93,15 @@ function About() {
 						<h6 className="section-title bg-white text-center text-primary px-3">
 							Travel Guide
 						</h6>
-						<h1 className="mb-5">Meet Our Guide</h1>
+						<h1 className="mb-5">Meet Our Guides</h1>
 					</div>
 					<div className="row g-4">
-						{[1, 2, 3, 4].map((item, index) => (
+						{[
+							{ name: "Ali Raza", designation: "Senior Travel Consultant" },
+							{ name: "Ayesha Khan", designation: "Tour Guide Specialist" },
+							{ name: "Usman Sheikh", designation: "Adventure Tour Expert" },
+							{ name: "Fatima Ahmed", designation: "Cultural Tour Guide" },
+						].map((guide, index) => (
 							<div
 								key={index}
 								className="col-lg-3 col-md-6 wow fadeInUp"
@@ -105,8 +110,8 @@ function About() {
 									<div className="overflow-hidden">
 										<img
 											className="img-fluid rounded"
-											src={`assets/img/team-${item}.jpg`}
-											alt={`Team Member ${item}`}
+											src={`assets/img/team-${index + 1}.jpg`}
+											alt={guide.name}
 										/>
 									</div>
 									<div className="position-relative d-flex justify-content-center mt-3">
@@ -124,8 +129,8 @@ function About() {
 										))}
 									</div>
 									<div className="text-center p-4">
-										<h5 className="mb-0">Full Name</h5>
-										<small>Designation</small>
+										<h5 className="mb-0">{guide.name}</h5>
+										<small>{guide.designation}</small>
 									</div>
 								</div>
 							</div>

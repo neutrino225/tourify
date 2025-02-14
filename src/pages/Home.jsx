@@ -3,7 +3,7 @@ import React from "react";
 export default function Home() {
 	return (
 		<div>
-			<div className="container-fluid bg-primary py-5 mb-5 hero-header">
+			<div className="min-h-screen container-fluid hero-header-landing bg-primary py-5 mb-5">
 				<div className="container py-5">
 					<div className="row justify-content-center py-5">
 						<div className="col-lg-10 pt-lg-5 mt-lg-5 text-center">
@@ -276,9 +276,7 @@ export default function Home() {
 										<div className="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">
 											30% OFF
 										</div>
-										<div className="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">
-											Thailand
-										</div>
+										<div className="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2"></div>
 									</a>
 								</div>
 								<div
@@ -295,9 +293,7 @@ export default function Home() {
 										<div className="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">
 											25% OFF
 										</div>
-										<div className="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">
-											Malaysia
-										</div>
+										<div className="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2"></div>
 									</a>
 								</div>
 								<div
@@ -314,9 +310,7 @@ export default function Home() {
 										<div className="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">
 											35% OFF
 										</div>
-										<div className="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">
-											Australia
-										</div>
+										<div className="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2"></div>
 									</a>
 								</div>
 							</div>
@@ -337,9 +331,7 @@ export default function Home() {
 								<div className="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">
 									20% OFF
 								</div>
-								<div className="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">
-									Indonesia
-								</div>
+								<div className="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2"></div>
 							</a>
 						</div>
 					</div>
@@ -357,6 +349,7 @@ export default function Home() {
 						<h1 className="mb-5">Exclusive Vacation Packages</h1>
 					</div>
 					<div className="row g-4 justify-content-center">
+						{/* Skardu Package */}
 						<div
 							className="col-lg-4 col-md-6 wow fadeInUp"
 							data-wow-delay="0.1s">
@@ -365,34 +358,33 @@ export default function Home() {
 									<img
 										className="img-fluid"
 										src="assets/img/package-1.jpg"
-										alt=""
+										alt="Skardu"
 									/>
 								</div>
 								<div className="d-flex border-bottom">
 									<small className="flex-fill text-center border-end py-2">
 										<i className="fa fa-map-marker-alt text-primary me-2" />
-										Thailand
+										Skardu
 									</small>
 									<small className="flex-fill text-center border-end py-2">
-										<i className="fa fa-calendar-alt text-primary me-2" />3 Days
+										<i className="fa fa-calendar-alt text-primary me-2" />4 Days
 									</small>
 									<small className="flex-fill text-center py-2">
 										<i className="fa fa-user text-primary me-2" />2 Persons
 									</small>
 								</div>
 								<div className="text-center p-4">
-									<h3 className="mb-0">PKR 141,720</h3>
+									<h3 className="mb-0">PKR 120,000</h3>
 									<div className="mb-3">
 										<small className="fa fa-star text-primary" />
 										<small className="fa fa-star text-primary" />
 										<small className="fa fa-star text-primary" />
 										<small className="fa fa-star text-primary" />
-										<small className="fa fa-star text-primary" />
+										<small className="fa fa-star-half-alt text-primary" />
 									</div>
 									<p>
-										Explore the vibrant culture and pristine beaches of
-										Thailand. This package is perfect for couples seeking a
-										relaxing yet adventurous escape.
+										Experience the breathtaking beauty of Skardu, surrounded by
+										majestic mountains and serene lakes.
 									</p>
 									<div className="d-flex justify-content-center mb-2">
 										<a
@@ -411,6 +403,8 @@ export default function Home() {
 								</div>
 							</div>
 						</div>
+
+						{/* Hunza Package */}
 						<div
 							className="col-lg-4 col-md-6 wow fadeInUp"
 							data-wow-delay="0.3s">
@@ -419,23 +413,23 @@ export default function Home() {
 									<img
 										className="img-fluid"
 										src="assets/img/package-2.jpg"
-										alt=""
+										alt="Hunza"
 									/>
 								</div>
 								<div className="d-flex border-bottom">
 									<small className="flex-fill text-center border-end py-2">
 										<i className="fa fa-map-marker-alt text-primary me-2" />
-										Indonesia
+										Hunza
 									</small>
 									<small className="flex-fill text-center border-end py-2">
-										<i className="fa fa-calendar-alt text-primary me-2" />3 Days
+										<i className="fa fa-calendar-alt text-primary me-2" />5 Days
 									</small>
 									<small className="flex-fill text-center py-2">
 										<i className="fa fa-user text-primary me-2" />2 Persons
 									</small>
 								</div>
 								<div className="text-center p-4">
-									<h3 className="mb-0">PKR 138,920</h3>
+									<h3 className="mb-0">PKR 135,000</h3>
 									<div className="mb-3">
 										<small className="fa fa-star text-primary" />
 										<small className="fa fa-star text-primary" />
@@ -444,8 +438,8 @@ export default function Home() {
 										<small className="fa fa-star text-primary" />
 									</div>
 									<p>
-										Uncover the beauty of Indonesia’s islands. From breathtaking
-										landscapes to cultural wonders, this package offers it all.
+										Explore the wonders of Hunza Valley with its stunning
+										landscapes, historic forts, and vibrant culture.
 									</p>
 									<div className="d-flex justify-content-center mb-2">
 										<a
@@ -464,6 +458,8 @@ export default function Home() {
 								</div>
 							</div>
 						</div>
+
+						{/* Malaysia Package (Remains the Same) */}
 						<div
 							className="col-lg-4 col-md-6 wow fadeInUp"
 							data-wow-delay="0.5s">
@@ -472,7 +468,7 @@ export default function Home() {
 									<img
 										className="img-fluid"
 										src="assets/img/package-3.jpg"
-										alt=""
+										alt="Malaysia"
 									/>
 								</div>
 								<div className="d-flex border-bottom">
@@ -706,142 +702,7 @@ export default function Home() {
 			</div>
 			{/* Process End */}
 
-			{/* Team Start */}
-			<div className="container-xxl py-5">
-				<div className="container">
-					<div className="text-center wow fadeInUp" data-wow-delay="0.1s">
-						<h6 className="section-title bg-white text-center text-primary px-3">
-							Travel Guide
-						</h6>
-						<h1 className="mb-5">Meet Our Guide</h1>
-					</div>
-					<div className="row g-4">
-						<div
-							className="col-lg-3 col-md-6 wow fadeInUp"
-							data-wow-delay="0.1s">
-							<div className="team-item">
-								<div className="overflow-hidden">
-									<img
-										className="img-fluid"
-										src="assets/img/team-1.jpg"
-										alt=""
-									/>
-								</div>
-								<div
-									className="position-relative d-flex justify-content-center"
-									style={{ marginTop: "-19px" }}>
-									<a className="btn btn-square mx-1" href="">
-										<i className="fab fa-facebook-f" />
-									</a>
-									<a className="btn btn-square mx-1" href="">
-										<i className="fab fa-twitter" />
-									</a>
-									<a className="btn btn-square mx-1" href="">
-										<i className="fab fa-instagram" />
-									</a>
-								</div>
-								<div className="text-center p-4">
-									<h5 className="mb-0">Full Name</h5>
-									<small>Designation</small>
-								</div>
-							</div>
-						</div>
-						<div
-							className="col-lg-3 col-md-6 wow fadeInUp"
-							data-wow-delay="0.3s">
-							<div className="team-item">
-								<div className="overflow-hidden">
-									<img
-										className="img-fluid"
-										src="assets/img/team-2.jpg"
-										alt=""
-									/>
-								</div>
-								<div
-									className="position-relative d-flex justify-content-center"
-									style={{ marginTop: "-19px" }}>
-									<a className="btn btn-square mx-1" href="">
-										<i className="fab fa-facebook-f" />
-									</a>
-									<a className="btn btn-square mx-1" href="">
-										<i className="fab fa-twitter" />
-									</a>
-									<a className="btn btn-square mx-1" href="">
-										<i className="fab fa-instagram" />
-									</a>
-								</div>
-								<div className="text-center p-4">
-									<h5 className="mb-0">Full Name</h5>
-									<small>Designation</small>
-								</div>
-							</div>
-						</div>
-						<div
-							className="col-lg-3 col-md-6 wow fadeInUp"
-							data-wow-delay="0.5s">
-							<div className="team-item">
-								<div className="overflow-hidden">
-									<img
-										className="img-fluid"
-										src="assets/img/team-3.jpg"
-										alt=""
-									/>
-								</div>
-								<div
-									className="position-relative d-flex justify-content-center"
-									style={{ marginTop: "-19px" }}>
-									<a className="btn btn-square mx-1" href="">
-										<i className="fab fa-facebook-f" />
-									</a>
-									<a className="btn btn-square mx-1" href="">
-										<i className="fab fa-twitter" />
-									</a>
-									<a className="btn btn-square mx-1" href="">
-										<i className="fab fa-instagram" />
-									</a>
-								</div>
-								<div className="text-center p-4">
-									<h5 className="mb-0">Full Name</h5>
-									<small>Designation</small>
-								</div>
-							</div>
-						</div>
-						<div
-							className="col-lg-3 col-md-6 wow fadeInUp"
-							data-wow-delay="0.7s">
-							<div className="team-item">
-								<div className="overflow-hidden">
-									<img
-										className="img-fluid"
-										src="assets/img/team-4.jpg"
-										alt=""
-									/>
-								</div>
-								<div
-									className="position-relative d-flex justify-content-center"
-									style={{ marginTop: "-19px" }}>
-									<a className="btn btn-square mx-1" href="">
-										<i className="fab fa-facebook-f" />
-									</a>
-									<a className="btn btn-square mx-1" href="">
-										<i className="fab fa-twitter" />
-									</a>
-									<a className="btn btn-square mx-1" href="">
-										<i className="fab fa-instagram" />
-									</a>
-								</div>
-								<div className="text-center p-4">
-									<h5 className="mb-0">Full Name</h5>
-									<small>Designation</small>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			{/* Team End */}
-
-			{/* Testimonial Start */}
+			{/* Updated Testimonial Section */}
 			<div className="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
 				<div className="container">
 					<div className="text-center">
@@ -856,16 +717,15 @@ export default function Home() {
 							<div className="testimonial-item bg-white text-center border rounded p-4 shadow-sm">
 								<img
 									className="rounded-circle shadow-sm p-1 mb-3"
-									src="assets/img/testimonial-1.jpg"
+									src="assets/img/client1.png"
 									alt="Client 1"
 									style={{ width: 80, height: 80 }}
 								/>
-								<h5 className="mb-1">Emily Johnson</h5>
-								<p>San Francisco, USA</p>
+								<h5 className="mb-1">Ayesha Malik</h5>
+								<p>Lahore, Pakistan</p>
 								<p className="text-muted">
-									"Booking my dream vacation was incredibly easy. The service
-									was flawless and everything was arranged perfectly. Highly
-									recommended!"
+									"Planning my trip was a breeze. The service was exceptional
+									and every detail was taken care of. Highly recommended!"
 								</p>
 							</div>
 						</div>
@@ -875,16 +735,15 @@ export default function Home() {
 							<div className="testimonial-item bg-white text-center border rounded p-4 shadow-sm">
 								<img
 									className="rounded-circle shadow-sm p-1 mb-3"
-									src="assets/img/testimonial-2.jpg"
+									src="assets/img/client2.png"
 									alt="Client 2"
 									style={{ width: 80, height: 80 }}
 								/>
-								<h5 className="mb-1">James Carter</h5>
-								<p>London, UK</p>
+								<h5 className="mb-1">Hamza Ahmed</h5>
+								<p>Karachi, Pakistan</p>
 								<p className="text-muted">
-									"I was impressed by how smoothly everything went. No hidden
-									charges and a fantastic travel experience. I'll definitely use
-									this service again."
+									"From start to finish, my travel experience was flawless. No
+									surprises and outstanding service. I'll definitely be back!"
 								</p>
 							</div>
 						</div>
@@ -894,22 +753,22 @@ export default function Home() {
 							<div className="testimonial-item bg-white text-center border rounded p-4 shadow-sm">
 								<img
 									className="rounded-circle shadow-sm p-1 mb-3"
-									src="assets/img/testimonial-3.jpg"
+									src="assets/img/client3.png"
 									alt="Client 3"
 									style={{ width: 80, height: 80 }}
 								/>
-								<h5 className="mb-1">Olivia Brown</h5>
-								<p>Sydney, Australia</p>
+								<h5 className="mb-1">Bilal Khan</h5>
+								<p>Islamabad, Pakistan</p>
 								<p className="text-muted">
-									"Everything from choosing my destination to payment was
-									seamless. This is my go-to travel service now!"
+									"Booking with this service was seamless. Everything was
+									handled with care and attention. My preferred choice now!"
 								</p>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			{/* Testimonial End */}
+			{/* Updated Testimonial Section End */}
 		</div>
 	);
 }

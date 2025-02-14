@@ -154,7 +154,7 @@ function Services() {
 			</div>
 			{/* Service End */}
 
-			{/* Testimonial Start */}
+			{/* Updated Testimonial Section */}
 			<div className="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
 				<div className="container">
 					<div className="text-center">
@@ -169,16 +169,15 @@ function Services() {
 							<div className="testimonial-item bg-white text-center border rounded p-4 shadow-sm">
 								<img
 									className="rounded-circle shadow-sm p-1 mb-3"
-									src="assets/img/testimonial-1.jpg"
+									src="assets/img/client1.png"
 									alt="Client 1"
 									style={{ width: 80, height: 80 }}
 								/>
-								<h5 className="mb-1">Emily Johnson</h5>
-								<p>San Francisco, USA</p>
+								<h5 className="mb-1">Ayesha Malik</h5>
+								<p>Lahore, Pakistan</p>
 								<p className="text-muted">
-									"Booking my dream vacation was incredibly easy. The service
-									was flawless and everything was arranged perfectly. Highly
-									recommended!"
+									"Planning my trip was a breeze. The service was exceptional
+									and every detail was taken care of. Highly recommended!"
 								</p>
 							</div>
 						</div>
@@ -188,16 +187,15 @@ function Services() {
 							<div className="testimonial-item bg-white text-center border rounded p-4 shadow-sm">
 								<img
 									className="rounded-circle shadow-sm p-1 mb-3"
-									src="assets/img/testimonial-2.jpg"
+									src="assets/img/client2.png"
 									alt="Client 2"
 									style={{ width: 80, height: 80 }}
 								/>
-								<h5 className="mb-1">James Carter</h5>
-								<p>London, UK</p>
+								<h5 className="mb-1">Hamza Ahmed</h5>
+								<p>Karachi, Pakistan</p>
 								<p className="text-muted">
-									"I was impressed by how smoothly everything went. No hidden
-									charges and a fantastic travel experience. I'll definitely use
-									this service again."
+									"From start to finish, my travel experience was flawless. No
+									surprises and outstanding service. I'll definitely be back!"
 								</p>
 							</div>
 						</div>
@@ -207,22 +205,22 @@ function Services() {
 							<div className="testimonial-item bg-white text-center border rounded p-4 shadow-sm">
 								<img
 									className="rounded-circle shadow-sm p-1 mb-3"
-									src="assets/img/testimonial-3.jpg"
+									src="assets/img/client3.png"
 									alt="Client 3"
 									style={{ width: 80, height: 80 }}
 								/>
-								<h5 className="mb-1">Olivia Brown</h5>
-								<p>Sydney, Australia</p>
+								<h5 className="mb-1">Bilal Khan</h5>
+								<p>Islamabad, Pakistan</p>
 								<p className="text-muted">
-									"Everything from choosing my destination to payment was
-									seamless. This is my go-to travel service now!"
+									"Booking with this service was seamless. Everything was
+									handled with care and attention. My preferred choice now!"
 								</p>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			{/* Testimonial End */}
+			{/* Updated Testimonial Section End */}
 		</div>
 	);
 }

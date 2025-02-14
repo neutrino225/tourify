@@ -13,18 +13,19 @@ function Header() {
 							style={{ height: 45 }}>
 							<small className="me-3 text-light">
 								<i className="fa fa-map-marker-alt me-2" />
-								Tourify, 123 North Street, Islamabad
+								Tourify, Gulberg III, Lahore, Pakistan
 							</small>
 							<small className="me-3 text-light">
 								<i className="fa fa-phone-alt me-2" />
-								+92 345 6789 000
+								+92 300 1234567
 							</small>
 							<small className="text-light">
 								<i className="fa fa-envelope-open me-2" />
-								info@example.com
+								contact@tourify.pk
 							</small>
 						</div>
 					</div>
+
 					<div className="col-lg-4 text-center text-lg-end">
 						<div
 							className="d-inline-flex align-items-center"
@@ -95,31 +96,7 @@ function Header() {
 							<Link to="/Packages" className="nav-item nav-link">
 								Packages
 							</Link>
-							<div className="nav-item dropdown">
-								<Link
-									to="#"
-									className="nav-link dropdown-toggle"
-									data-bs-toggle="dropdown">
-									Pages
-								</Link>
-								<div className="dropdown-menu m-0">
-									<Link to="/Destination" className="dropdown-item">
-										Destination
-									</Link>
-									<Link to="/Booking" className="dropdown-item">
-										Booking
-									</Link>
-									<Link to="/Team" className="dropdown-item">
-										Travel Guides
-									</Link>
-									<Link to="/Testimonial" className="dropdown-item">
-										Testimonial
-									</Link>
-									<Link to="/Error" className="dropdown-item">
-										404 Page
-									</Link>
-								</div>
-							</div>
+
 							<Link to="/Contact" className="nav-item nav-link">
 								Contact
 							</Link>

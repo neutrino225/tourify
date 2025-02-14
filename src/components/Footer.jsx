@@ -31,15 +31,15 @@ export default function Footer() {
 							<h4 className="text-white mb-3">Contact</h4>
 							<p className="mb-2">
 								<i className="fa fa-map-marker-alt me-3" />
-								123 North Street, Islamabad
+								Gulberg III, Lahore, Pakistan
 							</p>
 							<p className="mb-2">
 								<i className="fa fa-phone-alt me-3" />
-								+92 345 6789 000
+								+92 300 1234567
 							</p>
 							<p className="mb-2">
 								<i className="fa fa-envelope me-3" />
-								info@example.com
+								contact@tourify.pk
 							</p>
 							<div className="d-flex pt-2">
 								<a className="btn btn-outline-light btn-social" href="/">
@@ -105,7 +105,7 @@ export default function Footer() {
 						</div>
 						<div className="col-lg-3 col-md-6">
 							<h4 className="text-white mb-3">Newsletter</h4>
-							<p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+							<p>Subscribe to our newsletter for travel tips and updates.</p>
 							<div
 								className="position-relative mx-auto"
 								style={{ maxWidth: 400 }}>
@@ -131,14 +131,14 @@ export default function Footer() {
 								<a className="border-bottom" href="/">
 									Tourify
 								</a>
-								, All Right Reserved.
+								, All Rights Reserved.
 							</div>
 							<div className="col-md-6 text-center text-md-end">
 								<div className="footer-menu">
 									<a href="/">Home</a>
 									<a href="/">Cookies</a>
 									<a href="/">Help</a>
-									<a href="/">FQAs</a>
+									<a href="/">FAQs</a>
 								</div>
 							</div>
 						</div>
