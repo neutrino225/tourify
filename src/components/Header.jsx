@@ -33,6 +33,11 @@ function Header() {
 								Packages
 							</Link>
 
+							{/* Blogs */}
+							<Link to="/Blogs" className="nav-item nav-link">
+								Blogs
+							</Link>
+
 							<Link to="/Contact" className="nav-item nav-link">
 								Contact
 							</Link>

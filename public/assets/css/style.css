@@ -448,3 +448,22 @@
 	padding-right: 0;
 	border-right: none;
 }
+
+.blog-section {
+	margin-top: 5rem;
+}
+
+.blog-page .blog-section {
+	padding: 80px 0;
+}
+
+.blogs-card {
+	border: 1px solid #e5e5e5;
+	border-radius: 10px;
+	overflow: hidden;
+	transition: 0.5s;
+}
+
+.blogs-card:hover {
+	box-shadow: 0 0 45px rgba(0, 0, 0, 0.08);
+}
