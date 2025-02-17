@@ -12,7 +12,8 @@ import Team from "./pages/Team";
 import Testimonial from "./pages/Testimonial";
 import Error from "./pages/Error";
 import Contact from "./pages/Contact";
-import Blogs from "./pages/Blogs";
+import BlogsList from "./pages/BlogList";
+import BlogPost from "./pages/BlogPost";
 
 export default function App() {
 	return (
@@ -29,7 +30,8 @@ export default function App() {
 				<Route path="/testimonial" element={<Testimonial />} />
 				<Route path="/error" element={<Error />} />
 				<Route path="/contact" element={<Contact />} />
-				<Route path="/blogs" element={<Blogs />} />
+				<Route path="/blogs" element={<BlogsList />} />
+				<Route path="/blog/:id" element={<BlogPost />} />
 			</Routes>
 			<Footer />
 		</div>
